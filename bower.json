@@ -1,0 +1,42 @@
+{
+  "name": "angular-collection-sort",
+  "version": "0.0.1",
+  "authors": [
+    "toxahak <tohahak540@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/toxahak/angular-collection-sort.git"
+  },
+  "description": "Simple AngularJS directive, which provides sorting to tables. Supports Restangular collections (back-end sort) and pure arrays/objects collections (front-end sort).",
+  "main": "./dist/collection-sort.js",
+  "keywords": [
+    "angular",
+    "sort",
+    "collection",
+    "table",
+    "restangular"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.2",
+    "lodash": "*"
+  },
+  "ignore": [
+    ".*",
+    "spec",
+    "*.coffee",
+    "*.json",
+    ".gitignore",
+    ".travis.yml",
+    "*.html",
+    "package.js",
+    "*.md",
+    "src",
+    "gulp",
+    "scripts",
+    "node_modules",
+    "bower_components",
+    "tmp"
+  ]
+}
