@@ -9,7 +9,7 @@
 (function () {
   "use strict";
 
-  var module = angular.module('collectionSort', []); 
+  var module = angular.module('collectionSort', []);
 
   module.directive('collectionSort', function() {
     return {
